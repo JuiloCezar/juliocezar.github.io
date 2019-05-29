@@ -1,0 +1,226 @@
+/* Estrutura do site
+---------------------------------------------*/
+body {
+	background: #f4f2ec url(../img/fundo.png) repeat-x;
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+#conteiner {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+a:link, a:active, a:visited {
+	color: #af670a;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #227115;
+}
+
+/* Logo
+-------------------------------------------- */
+#logo a {
+	font-size: 1.8em;
+	width: 248;
+	height: 21px;
+	display: block;
+
+}
+
+/* Barra de Navegação 
+---------------------------------------------*/
+header {
+	padding: 15px;
+	height: 55px;
+}
+
+nav ul {
+	float: right;
+	list-style: none;
+	margin: 20px;
+	
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a:link {
+	margin-right: 25px;
+	padding-bottom: 3px;
+	text-transform: uppercase;
+}
+
+
+
+/*Principal
+--------------------------------------*/
+#conteudo{
+	width:710px;
+	float: left;
+	margin-bottom: 40px;
+
+}
+
+#conteudo section img{
+	width: 710px;
+	height: 320px;
+}
+
+aside{
+	width: 350px;
+	float: right;
+	background: #ebe7dd;
+	margin-bottom: 20px;
+}
+
+section#visita{
+	background: #cdc8b1;
+	padding: 10px 27px 27px 27px;
+	margin-top: 12px;
+}
+
+section#galeria{
+	padding: 0 27px 0 27px;
+}
+
+section#galeria a {
+	display: block;
+	background: url(../img/fundo-foto.png) no-repeat;
+	float: left;
+	padding: 17px 15px 17px 15px ;
+	margin: 10px 0 20px 20px;
+}
+
+section#galeria img{
+	margin-left: 2px;
+	margin-top: 3px;
+}
+
+section #beneficios{
+	list-style: none;
+	text-transform: uppercase;
+
+}
+
+#beneficios li{
+	border: none;
+	width: 710px;
+	height: 130px;
+	margin: 5px 0 10px -40px;
+	padding: 0 0 10px 0;
+	background: #cdc8b1;
+}
+
+#beneficios li a img {
+	width: 120px;
+	height: 120px;
+	float: left;
+	margin: 8px ;
+
+}
+
+#beneficios li a h3 {
+	font-size: 1.0em;
+	color: #86521a;
+	padding: 5px 4px;
+}
+
+#beneficios li a p {
+	color: #86521a;
+	font-size: 1.0em;
+}
+
+#beneficios li:hover {
+	background: #383027;
+	cursor: pointer;
+	color: rgba(255, 255, 255, 0.822);
+}
+
+#beneficios h3:hover{
+	color: rgba(255, 255, 255, 0.822);
+}
+#beneficios p:hover {
+	color: rgba(255, 255, 255, 0.822);
+}
+
+
+
+article#video{
+	float: left;
+	width: 310px;
+	margin-left: 25px;
+}
+
+article#mapa{
+	float: left;
+	width: 310px;
+	margin-left: 37px;
+}
+
+
+h3{
+	color: #86521a;
+	font-size: 1.0em;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
+h4{
+	color: #86521a;
+	text-transform: uppercase;
+	padding-bottom: 3px;
+	margin-bottom: 0;
+}
+
+
+
+
+/* Rodapé
+-----------------------------------------------*/
+footer{
+	clear: both;
+	padding: 15px 0 30px 0;
+	text-align: center;
+	background: url(../img/fundo-rodape.png) no-repeat center top;
+
+}
+
+footer>p a{
+	padding: 20px 10px;
+}
+
+/* Formulários Contato
+-----------------------------------------*/
+section#visita{
+	border: none;
+}
+
+input {
+	height: 20px;
+	width:245px;
+	background: #fff;
+	font-size: 1em;
+}
+
+
+input.botao {
+	background: #9b9271;
+	color: white;
+	width: 100%;
+	height: 25px;
+	font-size: 1.2em;
+	cursor: pointer;
+	border: none;
+}
+
+section#visita li{
+	padding-left: 180px;
+	list-style-type:none;	
+}
+
+section#visita input.botao{
+	margin-top: 17px;
+}

@@ -1,0 +1,143 @@
+/* Estrutura do site
+---------------------------------------------*/
+
+body {
+	background: #f4f2ec url(../img/fundo.png) repeat-x;
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+#conteiner {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+a:link, a:active, a:visited {
+	color: #af670a;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #227115;
+}
+/* Comentario */
+/* Logo
+-------------------------------------------- */
+#logo a {
+	font-size: 1.8em;
+	width: 248;
+	height: 21px;
+	display: block;
+
+}
+
+/* Barra de Navegação 
+---------------------------------------------*/
+header {
+	padding: 15px;
+	height: 55px;
+
+}
+
+nav ul {
+	float: right;
+	list-style: none;
+	margin: 20px;
+	
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a:link {
+	display: block;
+	margin-right: 25px;
+	padding-bottom: 3px;
+	text-transform: uppercase;
+}
+
+/*Principal
+--------------------------------------*/
+#conteudo{
+	float: center;
+	padding-top: 100px;
+
+}
+
+section#formulario{
+	padding: 10px 27px 27px 27px;
+	margin-top: 10px;
+}
+
+
+h3{
+	color: #86521a;
+	font-size: 1.0em;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+h2 {
+	color: #86521a;
+	text-transform: uppercase;
+	padding-bottom: 3px;
+	margin-bottom: 0;
+}
+
+form>input{
+	margin-top: 20px;
+	margin-left: 440px;
+}
+
+
+/* Rodapé
+-----------------------------------------------*/
+footer{
+	clear: both;
+	padding: 15px 0 30px 0;
+	text-align: center;
+	background: url(../img/fundo-rodape.png) no-repeat center top;
+
+}
+
+
+footer>p a{
+	padding: 20px 10px;
+}
+
+/* Formulários
+-----------------------------------------*/
+section fieldset{
+	float: center;
+	border: solid 1px #86521a;
+}
+
+input {
+	height: 20px;
+	background: #fff;
+	border: none;
+	font-size: 1em;
+}
+
+
+input.campo {
+	border: 1px solid #ada484;
+}
+
+input.botao {
+	float: center;
+	background: #9b9271;
+	color: white;
+	width: 200px;
+	height: 40px;
+	font-size: 1.2em;
+	cursor: pointer;
+}
+
+fieldset h3{
+	padding: 0 140px;
+	
+}
+
+fieldset div{
+	padding: 0px 150px 0 220px;
+}

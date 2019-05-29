@@ -1,0 +1,108 @@
+/*Principal
+--------------------------------------*/
+section{
+	padding: 90px 0px 20px 0px;
+	width: 610px;
+	margin: 0 auto;
+	
+}
+
+section h2{
+	padding-bottom: 30px;
+	color: #86521a;
+
+}
+
+
+section#postagens img{
+	background: #cdc8b1;
+}
+
+section#postagens p{
+	color: #af670a;
+}
+
+
+h3{
+	color: #86521a;
+	font-size: 1.0em;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: #86521a;
+	text-transform: uppercase;
+	padding-bottom: 3px;
+	margin-bottom: 0;
+}
+
+/* Formulários Contato
+-----------------------------------------*/
+section#contato{
+	padding-left: 160px;
+	padding-bottom: 160px;
+}
+
+input {
+	height: 20px;
+	width: 80px;
+	background: #fff;
+	border: none;
+	font-size: 1em;
+}
+
+input.campo {
+	border: 1px solid #ada484;
+}
+
+input.texto {
+	border: 1px solid #ada484;
+	width: 450px;
+    height: 150px;
+    line-height: 18px;
+}
+
+
+input.botao {
+	background: #9b9271;
+	color: white;
+	width: 250px;
+	height: 25px;
+	font-size: 1.2em;
+	cursor: pointer;
+	margin-bottom: 20px;
+	
+}
+
+section#postagens input.botao {
+	margin-left: 362px;
+}
+
+fieldset{
+	border: none;
+}
+
+legend {
+	display: none;
+	cursor: pointer;
+}
+
+section fieldset li{
+	float: right;
+	text-transform: uppercase;
+	list-style: none;
+}
+
+li.beneficiosApa{
+	padding: 10px 10px 10px 10px;
+	list-style: none;
+}
+
+li.beneficiosApa img{
+	margin: 0 3px 0 3px;
+}
+
+
+
+

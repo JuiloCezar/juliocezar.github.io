@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Hotel Elmo</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+	<link rel="stylesheet" type="text/css" href="css/estilocadastro.css">
+
+</head>
+
+<body>
+
+	<div id="conteiner">
+		<!-- Inicio conteiner-->
+
+		<header>
+			<!--Inicio Cabeçalho-->
+			<div id="logo">
+				<h1><a href="">Hotel Elmo</a></h1>
+			</div>
+
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="apartamento.html">Apartamentos</a></li>
+					<li><a href="restaurante.html">Restaurante</a></li>
+					<li><a href="piscina.html">Piscinas</a></li>
+					<li><a href="contato.html">Contatos</a></li>
+				</ul>
+			</nav>
+
+		</header>
+		<!--Fim Cabeçalho-->
+
+
+		<div id="conteudo" id="row">
+			<!--Inicio Conteudo-->
+
+			<section id="formulario">
+				<!--Inicio Cadastro-->
+				<h2>Cadastro de Cliente</h2>
+
+				<form name="frmo1" id="frmol" action="gravar php" method="post">
+
+					<fieldset>
+
+						<h3>Dados Cliente</h3>
+
+						<div class="campo">
+
+							<label for="nome_hospede">Nome<br></label>
+							<input class="campo" style="width:548px;" type="text" id="nome_hospede"
+								placeholder="Nome Completo" size="" maxlength="50">
+							<p>
+								<td>
+									<tr>
+										<th>
+											<label for="cpf">CPF </label>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+											&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+										</th>
+										<th>
+											<label for="rg"> RG<br></label>
+										</th>
+
+									</tr>
+									<tr>
+										<th>
+											<input class="campo" style="width: 260px" type="text" id="cpf"
+												placeholder="" size="" maxlength="14"> &ensp;
+										</th>
+										<th>
+											<input class="campo" style="width: 269px" type="text" id="rg" placeholder=""
+												size="" maxlength="7">
+										</th>
+									</tr>
+								</td>
+
+								<p>
+									<label for="data_nasc">Data Nascimento<br></label>
+									<input class="campo" type="date" id="data_nasc" placeholder="dd/mm/aaaa"
+										maxlength="10">
+								</p>
+
+						</div>
+
+					</fieldset>
+					<p></p>
+					<fieldset>
+
+						<h3>Endereço</h3>
+
+						<div class="campo">
+
+							<td>
+								<tr>
+									<th>
+										<label for="cep">CEP</label>&emsp; &emsp; &emsp; &emsp; &emsp;
+									</th>
+
+									<th>
+										<label for="endereco">Endereco</label>&emsp; &emsp; &emsp; &emsp;
+										&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+										&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+									</th>
+
+									<th>
+										<label for="numero">N°<br></label>
+									</th>
+
+								</tr>
+								<tr>
+									<th>
+										<input class="campo" style="width:88px;" type="text" id="cep"
+											placeholder="74.999-99" size="" maxlength="8">&ensp;
+									</th>
+									<th>
+										<input class="campo" style="width:386px" type="text" id="complemento"
+											placeholder="Rua:00 Quadra:00 Lote:00" size="" maxlength="45">&ensp;
+									</th>
+									<th>
+										<input class="campo" style="width: 46px" type="text" id="numero"
+											placeholder="999" size="" maxlength="3">
+									</th>
+									</th>
+								</tr>
+							</td>
+							<p>
+
+								<td>
+									<tr>
+										<th>
+											<label for="bairro">Bairro</label>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+											&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+										</th>
+
+										<th>
+											<label for="cidade">Cidade</label>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+											&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+										</th>
+
+										<th>
+											<label for="uf">UF<br></label>
+										</th>
+
+									</tr>
+									<tr>
+										<th>
+											<input class="campo" style="width: 242px" type="text" id="bairro"
+												placeholder="" size="" maxlength="45">&ensp;
+										</th>
+
+										<th>
+											<input class="campo" style="width: 230px" type="text" id="cidade"
+												placeholder="" size="" maxlength="45">&ensp;
+										</th>
+
+										<th>
+											<input class="campo" style="width: 46px" type="text" id="UF" placeholder=""
+												size="" maxlength="2">
+										</th>
+										</th>
+									</tr>
+								</td>
+
+						</div>
+
+					</fieldset>
+					<p></p>
+					<fieldset>
+
+						<h3>Contato</h3>
+
+						<div class="campo">
+
+							<td>
+								<tr>
+									<th><label for="telefone">Telefone</label>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+										&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &ensp; </th>
+									<th><label for="celular">Celular</label><br></th>
+								</tr>
+								<tr>
+									<th><input class="campo" style="width:266px;" type="text" id="telefone"
+											placeholder="62 2222-2222" size="" maxlength="12">&emsp;</th>
+									<th><input class="campo" style="width:264px;" type="text" id="celular"
+											placeholder="62 99999-0000" size="" maxlength="12"></th>
+								</tr>
+							</td>
+							<p>
+								<label for="email">E-Mail<br></label>
+								<input class="campo" style="width: 548px" type="text" id="email"
+									placeholder="exemplo@gmail.com" size="" maxlength="50">
+							</p>
+						</div>
+
+					</fieldset>
+					<p></p>
+					<fieldset>
+
+						<h3>Cadastro de Login</h3>
+
+						<div class="campo">
+
+							<label for="login">Login<br></label>
+							<input class="campo" style="width:264px;" type="text" id="login"
+								placeholder="Mín 6 caracteres" size="" maxlength="14">
+
+							<p>
+								<td>
+									<tr>
+										<th><label for="senha">Senha</label> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+											&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;</th>
+										<th><label for="cpf">Confime a Senha <br></label></th>
+									</tr>
+									<tr>
+										<th><input class="campo" style="width:264px;" type="password" id="senha"
+												placeholder="8 caracteres" size="" maxlength="8">&ensp;</th>
+										<th><input class="campo" style="width:264px;" type="password" id="senhateste"
+												value="" size="" maxlength="10"></th>
+									</tr>
+								</td>
+
+						</div>
+
+					</fieldset>
+
+					<input class="botao" style="width: 210px" type="submit" value="Cadastar">
+
+				</form>
+			</section>
+			<!--Fim Visita-->
+
+		</div>
+		<!--Fim conteudo-->
+
+		<footer>
+			<p>
+				<a href="index.html">Home</a>
+				<a href="apartamento.html">Apartamento</a>
+				<a href="restaurante.html">Restaurantes</a>
+				<a href="piscina.html">Piscinas</a>
+				<a href="contatos.html">Contatos</a>
+			</p>
+			<p>
+				2019 <a href="">Hotel Elmo</a>-  Todos os direitos reservados
+			</p>
+		</footer>
+
+	</div>
+	<!--Fim Principal-->
+
+	</div>
+	<!--Fim conteiner-->
+
+</body>
+
+</html>
